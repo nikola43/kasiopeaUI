@@ -6695,6 +6695,10 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .secondary-menu-item.active .secondary-menu-link:after { width: 3px; }
 
+.yellow {color:yellow;}
+.cyan {color:cyan;}
+.red {color:red;}
+
 @media (min-width: 425px) { .secondary-menu-item { width: auto; }
   .secondary-menu-link { padding: 20px 16px; width: auto; }
   .secondary-navbar { padding: 0; display: block; }
