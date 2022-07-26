@@ -1612,13 +1612,13 @@ textarea.form-control-lg { min-height: calc(1.5em + (1rem + 2px)); }
 
 .accordion-item { background-color: #fff; border: 1px solid rgba(0, 0, 0, 0.125); }
 
-.accordion-item:first-of-type { border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; }
+.accordion-item:first-of-type { border-top-left-radius: 8px; border-top-right-radius: 8px; }
 
 .accordion-item:first-of-type .accordion-button { border-top-left-radius: calc(0.25rem - 1px); border-top-right-radius: calc(0.25rem - 1px); }
 
 .accordion-item:not(:first-of-type) { border-top: 0; }
 
-.accordion-item:last-of-type { border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem; }
+.accordion-item:last-of-type { border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; }
 
 .accordion-item:last-of-type .accordion-button.collapsed { border-bottom-right-radius: calc(0.25rem - 1px); border-bottom-left-radius: calc(0.25rem - 1px); }
 
