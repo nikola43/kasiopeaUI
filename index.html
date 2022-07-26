@@ -30,7 +30,7 @@
           <div class="header-wrap">
             <!-- Logo @s -->
             <div class="header-logo logo-lg animated" data-animate="fadeInDown" data-delay=".65">
-              <a href="./" class="logo-link">
+              <a href="#header" class="logo-link">
                 <img class="logo-dark" src="assets/images/logo.png" srcset="images/logo2x.png 2x" alt="logo" />
                 <img class="logo-light" src="assets/images/logo.png" srcset="images/logo-white2x.png 2x" alt="logo" />
               </a>
@@ -47,9 +47,9 @@
             <div class="header-navbar header-navbar-s1">
               <nav class="header-menu" id="example-menu-04">
                 <ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
-                  <li class="menu-item">
+                  <!-- <li class="menu-item">
                     <a class="menu-link nav-link" href="#ico">What is Kasiopea</a>
-                  </li>
+                  </li> -->
                   <!-- <li class="menu-item"><a class="menu-link nav-link" href="#token">Token Sale</a></li> -->
                   <li class="menu-item">
                     <a class="menu-link nav-link" href="#features">Features</a>
@@ -58,10 +58,11 @@
                     <a class="menu-link nav-link" href="#vpn">VPN</a>
                   </li>
                   <li class="menu-item">
-                    <a class="menu-link nav-link" href="#team">Team</a>
+                    <a class="menu-link nav-link" href="#roadmap">ROADMAP</a>
                   </li>
+                  
                   <li class="menu-item">
-                    <a class="menu-link nav-link" href="#partners">Integrates</a>
+                    <a class="menu-link nav-link" href="#team">Team</a>
                   </li>
                   <li class="menu-item">
                     <a class="menu-link nav-link" href="#faq">FAQ</a>
@@ -94,7 +95,7 @@
       </div>
       <!-- .header-main @e -->
       <!-- Banner @s -->
-      <div class="header-banner bg-theme-dark">
+      <div class="header-banner bg-theme-dark" id="header">
         <div class="nk-banner">
           <div class="banner banner-mask-fix banner-fs banner-single tc-light">
             <div class="banner-wrap">
@@ -173,58 +174,21 @@
       <!-- .header-banner @e -->
     </header>
     <main class="nk-pages">
-      <section class="section bg-theme-dark-alt tc-light py-0 ov-h" id="vpn">
-        <div class="container">
-          <!-- Block @s -->
-          <div class="nk-block nk-block-features-2">
-            <div class="row align-items-center gutter-vr-30px justify-content-center justify-content-md-between">
-              <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
-                <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay=".1">
-                  <img src="images/light/gfx-z-b.png" alt="gfx" />
-                </div>
-              </div>
-              <!-- .col -->
-              <div class="col-sm-10 col-md-6 text-center text-md-start">
-                <!-- Section Head @s -->
-                <div class="nk-block-text">
-                  <h4 class="title title-lg animated" data-animate="fadeInUp" data-delay=".2">
-                    Future of TOR? TOR 2.0?
-                  </h4>
-                  <p class="lead animated" data-animate="fadeInUp" data-delay=".3">
-                    Kasiopea uses onion routing to transfer UDP packets between network nodes, at the same time, it is a
-                    FULL VPN which allows clients to use the ISP of the nodes as an external output to the internet.
-                  </p>
-                  <p class="lead animated" data-animate="fadeInUp" data-delay=".3">
-                    We all know the advantages and disadvantages of using TOR,
-                    mainly its slowness. We keeps all the advantages and
-                    fix all the disadvantages of the TOR network, keeping a
-                    private communication without sacrificing speed.
-                  </p>
-                  <p class="animated" data-animate="fadeInUp" data-delay=".4">
-                    The information that is sent in fully encrypted, no one knows what information is
-                    transmitted or where it comes from or where those data goes. NOT EVEN PROJECT OWNERS.
-                  </p>
-                  <!-- <p class="animated" data-animate="fadeInUp" data-delay=".5">
-                      VPNs do this by allowing you to appear as though you're
-                      connecting from a different location or country.
-                    </p> -->
-                </div>
-              </div>
-            </div>
-            <!-- .row -->
-          </div>
-          <!-- .block @e -->
-        </div>
-      </section>
       <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h" id="features">
         <div class="container">
           <!-- Block @s -->
           <div class="nk-block nk-block-token mgb-m30">
             <div class="row align-items-center justify-content-between gutter-vr-50px">
               <div class="col-lg-12">
-                <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">
+                <h2 class="title animated" data-animate="fadeInUp" data-delay=".1">
                   Features
                 </h2>
+                <div class="row mb-5">
+                  <p class="animated"  data-animate="fadeInUp" data-delay=".2">
+                    Kasiopea connects transactions between bitcoin and ethereum, users can create a master wallet based
+                    on the btc private key and eth private key, both keys are needed to sign transactions.
+                  </p>
+                </div>
                 <div class="row gutter-vr-30px">
                   <div class="col-sm-4">
                     <div class="stage-info animated" data-animate="fadeInUp" data-delay=".3">
@@ -297,8 +261,52 @@
           <!-- .block @e -->
         </div>
       </section>
+      <section class="section bg-theme-dark-alt tc-light py-0 ov-h">
+        <div class="container">
+          <!-- Block @s -->
+          <div class="nk-block nk-block-features-2">
+            <div class="row align-items-center gutter-vr-30px justify-content-center justify-content-md-between">
+              <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
+                <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay=".1">
+                  <img src="images/light/gfx-z-b.png" alt="gfx" />
+                </div>
+              </div>
+              <!-- .col -->
+              <div class="col-sm-10 col-md-6 text-center text-md-start">
+                <!-- Section Head @s -->
+                <div class="nk-block-text">
+                  <h4 class="title title-lg animated" data-animate="fadeInUp" data-delay=".2">
+                    Future of TOR? TOR 2.0?
+                  </h4>
+                  <p class="lead animated" data-animate="fadeInUp" data-delay=".3">
+                    Kasiopea uses onion routing to transfer UDP packets between network nodes, at the same time, it is a
+                    FULL VPN which allows clients to use the ISP of the nodes as an external output to the internet.
+                  </p>
+                  <p class="lead animated" data-animate="fadeInUp" data-delay=".3">
+                    We all know the advantages and disadvantages of using TOR,
+                    mainly its slowness. We keeps all the advantages and
+                    fix all the disadvantages of the TOR network, keeping a
+                    private communication without sacrificing speed.
+                  </p>
+                  <p class="animated" data-animate="fadeInUp" data-delay=".4">
+                    The information that is sent in fully encrypted, no one knows what information is
+                    transmitted or where it comes from or where those data goes. NOT EVEN PROJECT OWNERS.
+                  </p>
+                  <!-- <p class="animated" data-animate="fadeInUp" data-delay=".5">
+                      VPNs do this by allowing you to appear as though you're
+                      connecting from a different location or country.
+                    </p> -->
+                </div>
+              </div>
+            </div>
+            <!-- .row -->
+          </div>
+          <!-- .block @e -->
+        </div>
+      </section>
 
-      <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h" id="ico">
+
+      <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h">
         <div class="container">
           <!-- Block @s -->
           <div class="nk-block nk-block-text-wrap">
@@ -337,7 +345,7 @@
           <!-- .block @e -->
         </div>
       </section>
-      <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h" id="ico">
+      <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h">
         <div class="container">
           <!-- Block @s -->
           <div class="nk-block nk-block-text-wrap">
