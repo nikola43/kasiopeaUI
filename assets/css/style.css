@@ -9447,7 +9447,7 @@ ul.progress-info {
 }
 
 .gfx {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .gfx-auto {
@@ -9465,7 +9465,7 @@ ul.progress-info {
 
 @media (min-width: 768px) {
   .gfx {
-    max-width: 500px;
+    max-width: 600px;
   }
   .gfx-inherit {
     max-width: 420px;
