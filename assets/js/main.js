@@ -9,14 +9,13 @@ $(function () {
   ];
   var scrolled = false;
   $(window).scroll(function () {
-    console.log($(window).scrollTop())
-    if(($(window).scrollTop() > 2500 && $(window).scrollTop() < 3000) && !scrolled) {
+    if(($(window).scrollTop() > 3500 && $(window).scrollTop() < 4500) && !scrolled) {
       scrolled = true;
       runScripts(data, 0);
-    } else if ($(window).scrollTop() < 2000 && scrolled) {
+    } else if ($(window).scrollTop() < 3000 && scrolled) {
       scrolled = false;
       data[0].clear = true;
-    } else if ($(window).scrollTop() > 3800 && scrolled) {
+    } else if ($(window).scrollTop() > 4800 && scrolled) {
       scrolled = false;
       data[0].clear = true;
     }
